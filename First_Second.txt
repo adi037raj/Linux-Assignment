@@ -1,0 +1,26 @@
+1st Question Solution
+
+ 1.  ls -lS \usr/include|head -6
+ 2.  find ./usr/include -name '*.h' | wc -l
+
+
+
+
+
+2nd Question Solution
+  
+  
+    first use this command to create files
+  
+    touch CaseNew1.c CaseNew2.c CaseNew3.c CaseNew4.c CaseNew5.c CaseNew6.c CaseNew7.c CaseNew8.c CaseNew9.c Case1.c Case2.c Case3.c Case4.c Case5.c Case6.c Case7.c Case8.c Case9.c 
+  
+  
+  
+ 1.  mkdir ~/Desktop/new
+     find -name "CaseNew*" -exec cp {} ~/Desktop/new \;
+     
+ 2.  mkdir ~/Desktop/old
+     find -name "Case?.*" -exec cp {} ~/Desktop/old \;
+ 
+ 
+     
